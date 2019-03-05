@@ -1,0 +1,59 @@
+Student:
+
+package lab1act4;
+
+public class Student {
+	private String name;
+	private String matricNo;
+	private byte age;
+	private double cgpa;
+	
+	public void student()
+	{
+		this.name = "";
+	    this.matricNo = "";
+        this.age = 0;
+        this.cgpa = 0;
+        
+	}
+	
+	public void student (String nme,String matric,byte ag, double cg) 
+	{
+		this.name = "";
+	    this.matricNo = "";
+        this.age = 0;
+        this.cgpa = 0;
+		
+	}
+        public void setName(String nme) 
+	
+	{
+		name = nme;
+		
+	}
+	
+	public void setMatric(String matric)
+	
+	{
+	   matricNo = matric;
+	}
+	
+	public void setAge(int age)
+	{
+		this.age = (byte) age;
+	}
+	
+	public void setCgpa(double cg)
+	{
+		cgpa = cg;
+	}
+	
+	public void print()
+	
+	{
+		System.out.println("Name ="+ name);
+		System.out.println("MatricNo ="+ matricNo);
+		System.out.println("Age ="+ age);
+		System.out.println("Cgpa ="+ cgpa);
+	}
+}
