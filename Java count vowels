@@ -1,0 +1,64 @@
+import javax.swing.JOptionPane;
+
+public class sehe {
+
+	public static void main(String[] args) {
+		String line;
+		line=JOptionPane.showInputDialog("Give me a sentence/word");
+		int a=0, e=0, i=0, o=0, u=0;
+		
+		line = line.toLowerCase();
+		for(int j=0; j<line.length(); j++)
+		{
+			char ch = line.charAt(j);
+			if(ch == 'a')
+			{
+				++a;
+			}
+			else if(ch == 'e')
+			{
+				++e;
+			}
+			else if(ch == 'i')
+			{
+				++i;
+			}
+			else if(ch == 'o')
+			{
+				++o;
+			}
+			else if(ch == 'u')
+			{
+				++u;
+			}
+		}
+		line = line.toUpperCase();
+		for(int j=0; j<line.length(); j++)
+		{
+			char ch = line.charAt(j);
+			if(ch == 'A')
+			{
+				++a;
+			}
+			else if(ch == 'E')
+			{
+				++e;
+			}
+			else if(ch == 'I')
+			{
+				++i;
+			}
+			else if(ch == 'O')
+			{
+				++o;
+			}
+			else if(ch == 'U')
+			{
+				++u;
+			}
+		}
+		
+		String out = ("a:"+a + "\n e:"+e + "\n i:"+i + "\n o:"+o + "\n u:"+u);
+		JOptionPane.showMessageDialog(null, out);
+	}
+}
