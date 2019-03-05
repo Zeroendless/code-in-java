@@ -1,0 +1,30 @@
+Demosubject:
+
+package lab1act42;
+
+public class demo2 {
+	
+	public static void main(String[] args) 
+	
+	{
+		
+		Subject a = new Subject();
+		a.setCode("KT14303");
+		a.setName("Programming Principles");
+		a.setGrade("A");
+		a.print();
+		
+		Subject b =new Subject();
+		b.setCode("KK14203");
+		b.setName("Object-oriented programmin");
+		b.setGrade("B");
+		b.print();
+		
+		Subject c =new Subject();
+		c.setCode("KT24103");
+		c.setName("Data Structures and Algorithms");
+		c.setGrade("C");
+		c.print();
+		
+	}
+}
