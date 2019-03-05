@@ -1,0 +1,64 @@
+Subject:
+
+package lab1act42;
+
+public class Subject {
+	
+	private String code;
+	private String name;
+	private String grade;
+	
+	public void subject()
+	
+	{
+		
+		this.code = "";
+	    this.name = "";
+        this.grade ="";
+        
+	}
+	
+	public void subject (String cod,String nam,String gra) 
+	
+	{
+		
+		this.code = "";
+	    this.name = "";
+        this.grade ="";
+		
+	}
+	
+        public void setCode(String cod) 
+	
+	{
+        	
+		code = cod;
+		
+	}
+	
+	public void setName(String nam)
+	
+	{
+		
+	   name = nam;
+	   
+	}
+	
+	public char setGrade(String gra)
+	
+	{
+
+		this.grade = gra;
+		return 0;
+		
+	}
+	
+	public void print()
+	
+	{
+		
+		System.out.println("Code ="+ code);
+		System.out.println("Name ="+ name);
+		System.out.println("Grade ="+ grade);
+	}
+}
