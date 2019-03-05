@@ -1,0 +1,31 @@
+Demostudent:
+
+package lab1act4;
+
+public class demo {
+	public static void main(String[] args) 
+	{
+		Student a = new Student();
+		a.setName("Aberdline");
+		a.setMatric("47899");
+		a.setAge(20);
+		a.setCgpa(3.05);
+		a.print();
+		
+		Student b =new Student();
+		b.setName("Mark Jones");
+		b.setMatric("39119");
+		b.setAge(19);
+		b.setCgpa(2.97);
+		b.print();
+		
+		Student c =new Student();
+		c.setName("Joy Rogers");
+		c.setMatric("81774");
+		c.setAge(21);
+		c.setCgpa(3.38);
+		c.print();
+		
+		
+	}
+}
